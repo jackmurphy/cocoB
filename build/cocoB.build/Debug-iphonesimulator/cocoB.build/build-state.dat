@@ -1,7 +1,7 @@
 TcocoB
 v7
 r0
-t322029558.379739
+t322031699.763258
 cCheck dependencies
 cProcessInfoPlistFile /Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app/Info.plist Resources/Info.plist
 cCpResource build/Debug-iphonesimulator/cocoB.app/Default.png Resources/Default.png
@@ -20,6 +20,10 @@ cCpResource build/Debug-iphonesimulator/cocoB.app/cloud2.png Resources/cloud2.pn
 cCpResource build/Debug-iphonesimulator/cocoB.app/mountain1.png Resources/mountain1.png
 cCpResource build/Debug-iphonesimulator/cocoB.app/mountain2.png Resources/mountain2.png
 cCpResource build/Debug-iphonesimulator/cocoB.app/mountain3.png Resources/mountain3.png
+cCpResource build/Debug-iphonesimulator/cocoB.app/bauchi.gif Resources/bauchi.gif
+cCpResource build/Debug-iphonesimulator/cocoB.app/baule.gif Resources/baule.gif
+cCpResource build/Debug-iphonesimulator/cocoB.app/bgalla.gif Resources/bgalla.gif
+cCpResource build/Debug-iphonesimulator/cocoB.app/eket.gif Resources/eket.gif
 cProcessPCH /var/folders/9S/9S34CK-cHbS1kAu6+wRgTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocoB_Prefix-cmmeomgatsgtgtbgopmwyxygpizn/cocoB_Prefix.pch.gch cocoB_Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
 cCompileC build/cocoB.build/Debug-iphonesimulator/cocoB.build/Objects-normal/i386/main.o /Users/admin/src/cocoB/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
 cCompileC build/cocoB.build/Debug-iphonesimulator/cocoB.build/Objects-normal/i386/cocoBAppDelegate.o /Users/admin/src/cocoB/Classes/cocoBAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42
@@ -172,9 +176,9 @@ s196
 i"cocos2d.h"
 
 N/Users/admin/src/cocoB/Classes/BgLayer.m
-c000000004D81907400000000000007D6
-t1300336756
-s2006
+c000000004D8198D1000000000000077B
+t1300338897
+s1915
 i"BgLayer.h"
 
 N/Users/admin/src/cocoB/Classes/GameConfig.h
@@ -201,9 +205,9 @@ s369
 i"cocos2d.h"
 
 N/Users/admin/src/cocoB/Classes/PageScene.m
-c000000004D818BAB00000000000003A5
-t1300335531
-s933
+c000000004D81971D000000000000066B
+t1300338461
+s1643
 i"PageScene.h"
 i"BgLayer.h"
 
@@ -242,6 +246,11 @@ c000000004D8175F300000000000077AB
 t1300329971
 s30635
 
+N/Users/admin/src/cocoB/Resources/Eket Mask.gif
+c000000004A6FDDEE0000000000000BA2
+t1248845294
+s2978
+
 N/Users/admin/src/cocoB/Resources/Icon-72.png
 c000000004D8175F30000000000002C96
 t1300329971
@@ -277,10 +286,25 @@ c000000004D81820D00000000000298A8
 t1300333069
 s170152
 
+N/Users/admin/src/cocoB/Resources/bauchi.gif
+c000000004A6FDDEE0000000000000934
+t1248845294
+s2356
+
+N/Users/admin/src/cocoB/Resources/baule.gif
+c000000004A6FDDEE00000000000009C0
+t1248845294
+s2496
+
 N/Users/admin/src/cocoB/Resources/bg1.png
 c000000004D8176E300000000000C175E
 t1300330211
 s792414
+
+N/Users/admin/src/cocoB/Resources/bgalla.gif
+c000000004A6FDDEE00000000000009C9
+t1248845294
+s2505
 
 N/Users/admin/src/cocoB/Resources/cloud1.png
 c000000004D8181890000000000018AC6
@@ -291,6 +315,11 @@ N/Users/admin/src/cocoB/Resources/cloud2.png
 c000000004D8181FD0000000000010D09
 t1300333053
 s68873
+
+N/Users/admin/src/cocoB/Resources/eket.gif
+c000000004A6FDDEE0000000000000BA2
+t1248845294
+s2978
 
 N/Users/admin/src/cocoB/Resources/fps_images.png
 c000000004D8175F3000000000000183B
@@ -318,16 +347,20 @@ t1300333029
 s91497
 
 N/Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app
-t1300336758
-s714
+t1300338899
+s850
 
 N/Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app.dSYM
-t1300336758
+t1300338899
 s102
 
 N/Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app/Default.png
 t1300330016
 s30635
+
+N/Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app/Eket Mask.gif
+t2
+s0
 
 N/Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app/Icon-72.png
 t1300330016
@@ -365,9 +398,21 @@ N/Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app/actor1.png
 t1300336720
 s170152
 
+N/Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app/bauchi.gif
+t1300338261
+s2356
+
+N/Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app/baule.gif
+t1300338261
+s2496
+
 N/Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app/bg1.png
 t1300330389
 s792414
+
+N/Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app/bgalla.gif
+t1300338261
+s2505
 
 N/Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app/cloud1.png
 t1300336720
@@ -378,8 +423,12 @@ t1300336720
 s68873
 
 N/Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app/cocoB
-t1300336758
-s1654376
+t1300338899
+s1654548
+
+N/Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app/eket.gif
+t1300338261
+s2978
 
 N/Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app/fps_images.png
 t1300330016
@@ -407,16 +456,16 @@ t1300330016
 s3900608
 
 N/Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/Objects-normal/i386/BgLayer.o
-t1300336757
-s16484
+t1300338898
+s16420
 
 N/Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/Objects-normal/i386/HelloWorldScene.o
 t1300330776
 s13348
 
 N/Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/Objects-normal/i386/PageScene.o
-t1300335541
-s9396
+t1300338463
+s15260
 
 N/Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/Objects-normal/i386/RootViewController.o
 t1300331166
@@ -1186,11 +1235,11 @@ s1301
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies322029557#322029557#0(0"0(0#1#0"8592786560#0"0#
+lSLF07#2@18"Check dependencies322031698#322031698#0(0"0(0#1#0"8617621024#0"0#
 
 CCompileC build/cocoB.build/Debug-iphonesimulator/cocoB.build/Objects-normal/i386/BgLayer.o /Users/admin/src/cocoB/Classes/BgLayer.m normal i386 objective-c com.apple.compilers.llvmgcc42
-s322029557.681080
-e322029557.901107
+s322031698.699368
+e322031698.992369
 r1
 xCompileC
 xbuild/cocoB.build/Debug-iphonesimulator/cocoB.build/Objects-normal/i386/BgLayer.o
@@ -1199,7 +1248,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvmgcc42
-lSLF07#2@48"Compile /Users/admin/src/cocoB/Classes/BgLayer.m322029557#322029557#0(0"0(0#0#40"/Users/admin/src/cocoB/Classes/BgLayer.m8622666336#1762"    cd /Users/admin/src/cocoB    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/cocoB-generated-files.hmap -I/Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/cocoB-own-target-headers.hmap -I/Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/cocoB-all-target-headers.hmap -iquote /Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/cocoB-project-headers.hmap -Wall -F/Users/admin/src/cocoB/build/Debug-iphonesimulator -I/Users/admin/src/cocoB/build/Debug-iphonesimulator/include -I/Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/DerivedSources/i386 -I/Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/DerivedSources -include /var/folders/9S/9S34CK-cHbS1kAu6+wRgTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocoB_Prefix-cmmeomgatsgtgtbgopmwyxygpizn/cocoB_Prefix.pch -c /Users/admin/src/cocoB/Classes/BgLayer.m -o /Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/Objects-normal/i386/BgLayer.o0#
+lSLF07#2@48"Compile /Users/admin/src/cocoB/Classes/BgLayer.m322031698#322031698#0(0"0(0#0#40"/Users/admin/src/cocoB/Classes/BgLayer.m8611401792#1762"    cd /Users/admin/src/cocoB    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/cocoB-generated-files.hmap -I/Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/cocoB-own-target-headers.hmap -I/Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/cocoB-all-target-headers.hmap -iquote /Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/cocoB-project-headers.hmap -Wall -F/Users/admin/src/cocoB/build/Debug-iphonesimulator -I/Users/admin/src/cocoB/build/Debug-iphonesimulator/include -I/Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/DerivedSources/i386 -I/Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/DerivedSources -include /var/folders/9S/9S34CK-cHbS1kAu6+wRgTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocoB_Prefix-cmmeomgatsgtgtbgopmwyxygpizn/cocoB_Prefix.pch -c /Users/admin/src/cocoB/Classes/BgLayer.m -o /Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/Objects-normal/i386/BgLayer.o0#
 
 CCompileC build/cocoB.build/Debug-iphonesimulator/cocoB.build/Objects-normal/i386/HelloWorldScene.o /Users/admin/src/cocoB/Classes/HelloWorldScene.m normal i386 objective-c com.apple.compilers.llvmgcc42
 s322023576.704802
@@ -1215,8 +1264,8 @@ xcom.apple.compilers.llvmgcc42
 lSLF07#2@56"Compile /Users/admin/src/cocoB/Classes/HelloWorldScene.m322023576#322023576#0(0"0(0#0#48"/Users/admin/src/cocoB/Classes/HelloWorldScene.m8603785184#1778"    cd /Users/admin/src/cocoB    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/cocoB-generated-files.hmap -I/Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/cocoB-own-target-headers.hmap -I/Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/cocoB-all-target-headers.hmap -iquote /Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/cocoB-project-headers.hmap -Wall -F/Users/admin/src/cocoB/build/Debug-iphonesimulator -I/Users/admin/src/cocoB/build/Debug-iphonesimulator/include -I/Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/DerivedSources/i386 -I/Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/DerivedSources -include /var/folders/9S/9S34CK-cHbS1kAu6+wRgTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocoB_Prefix-cmmeomgatsgtgtbgopmwyxygpizn/cocoB_Prefix.pch -c /Users/admin/src/cocoB/Classes/HelloWorldScene.m -o /Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/Objects-normal/i386/HelloWorldScene.o0#
 
 CCompileC build/cocoB.build/Debug-iphonesimulator/cocoB.build/Objects-normal/i386/PageScene.o /Users/admin/src/cocoB/Classes/PageScene.m normal i386 objective-c com.apple.compilers.llvmgcc42
-s322028341.424905
-e322028341.620447
+s322031262.826076
+e322031263.054899
 r1
 xCompileC
 xbuild/cocoB.build/Debug-iphonesimulator/cocoB.build/Objects-normal/i386/PageScene.o
@@ -1225,7 +1274,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvmgcc42
-lSLF07#2@50"Compile /Users/admin/src/cocoB/Classes/PageScene.m322028341#322028341#0(0"0(0#0#42"/Users/admin/src/cocoB/Classes/PageScene.m8624371168#1766"    cd /Users/admin/src/cocoB    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/cocoB-generated-files.hmap -I/Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/cocoB-own-target-headers.hmap -I/Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/cocoB-all-target-headers.hmap -iquote /Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/cocoB-project-headers.hmap -Wall -F/Users/admin/src/cocoB/build/Debug-iphonesimulator -I/Users/admin/src/cocoB/build/Debug-iphonesimulator/include -I/Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/DerivedSources/i386 -I/Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/DerivedSources -include /var/folders/9S/9S34CK-cHbS1kAu6+wRgTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocoB_Prefix-cmmeomgatsgtgtbgopmwyxygpizn/cocoB_Prefix.pch -c /Users/admin/src/cocoB/Classes/PageScene.m -o /Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/Objects-normal/i386/PageScene.o0#
+lSLF07#2@50"Compile /Users/admin/src/cocoB/Classes/PageScene.m322031262#322031263#0(0"0(0#0#42"/Users/admin/src/cocoB/Classes/PageScene.m8617912384#1766"    cd /Users/admin/src/cocoB    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/cocoB-generated-files.hmap -I/Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/cocoB-own-target-headers.hmap -I/Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/cocoB-all-target-headers.hmap -iquote /Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/cocoB-project-headers.hmap -Wall -F/Users/admin/src/cocoB/build/Debug-iphonesimulator -I/Users/admin/src/cocoB/build/Debug-iphonesimulator/include -I/Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/DerivedSources/i386 -I/Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/DerivedSources -include /var/folders/9S/9S34CK-cHbS1kAu6+wRgTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocoB_Prefix-cmmeomgatsgtgtbgopmwyxygpizn/cocoB_Prefix.pch -c /Users/admin/src/cocoB/Classes/PageScene.m -o /Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/Objects-normal/i386/PageScene.o0#
 
 CCompileC build/cocoB.build/Debug-iphonesimulator/cocoB.build/Objects-normal/i386/RootViewController.o /Users/admin/src/cocoB/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
 s322023966.523731
@@ -1265,6 +1314,9 @@ xi386
 xobjective-c
 xcom.apple.compilers.llvmgcc42
 lSLF07#2@37"Compile /Users/admin/src/cocoB/main.m322022816#322022817#0(0"0(0#0#29"/Users/admin/src/cocoB/main.m8623065920#1748"    cd /Users/admin/src/cocoB    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/cocoB-generated-files.hmap -I/Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/cocoB-own-target-headers.hmap -I/Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/cocoB-all-target-headers.hmap -iquote /Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/cocoB-project-headers.hmap -Wall -F/Users/admin/src/cocoB/build/Debug-iphonesimulator -I/Users/admin/src/cocoB/build/Debug-iphonesimulator/include -I/Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/DerivedSources/i386 -I/Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/DerivedSources -include /var/folders/9S/9S34CK-cHbS1kAu6+wRgTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocoB_Prefix-cmmeomgatsgtgtbgopmwyxygpizn/cocoB_Prefix.pch -c /Users/admin/src/cocoB/main.m -o /Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/Objects-normal/i386/main.o0#
+
+CCpResource "build/Debug-iphonesimulator/cocoB.app/Eket Mask.gif" "Resources/Eket Mask.gif"
+r0
 
 CCpResource build/Debug-iphonesimulator/cocoB.app/Default.png Resources/Default.png
 s322022816.215459
@@ -1338,6 +1390,24 @@ xbuild/Debug-iphonesimulator/cocoB.app/actor1.png
 xResources/actor1.png
 lSLF07#2@25"Copy Resources/actor1.png322029520#322029520#0(0"0(0#0#43"/Users/admin/src/cocoB/Resources/actor1.png8610709184#428"    cd /Users/admin/src/cocoB    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/admin/src/cocoB/Resources/actor1.png /Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app0#
 
+CCpResource build/Debug-iphonesimulator/cocoB.app/bauchi.gif Resources/bauchi.gif
+s322031061.477494
+e322031061.487131
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/cocoB.app/bauchi.gif
+xResources/bauchi.gif
+lSLF07#2@25"Copy Resources/bauchi.gif322031061#322031061#0(0"0(0#0#43"/Users/admin/src/cocoB/Resources/bauchi.gif8628094080#428"    cd /Users/admin/src/cocoB    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/admin/src/cocoB/Resources/bauchi.gif /Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app0#
+
+CCpResource build/Debug-iphonesimulator/cocoB.app/baule.gif Resources/baule.gif
+s322031061.478274
+e322031061.489545
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/cocoB.app/baule.gif
+xResources/baule.gif
+lSLF07#2@24"Copy Resources/baule.gif322031061#322031061#0(0"0(0#0#42"/Users/admin/src/cocoB/Resources/baule.gif8628007936#427"    cd /Users/admin/src/cocoB    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/admin/src/cocoB/Resources/baule.gif /Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app0#
+
 CCpResource build/Debug-iphonesimulator/cocoB.app/bg1.png Resources/bg1.png
 s322023189.954096
 e322023189.961936
@@ -1346,6 +1416,15 @@ xCpResource
 xbuild/Debug-iphonesimulator/cocoB.app/bg1.png
 xResources/bg1.png
 lSLF07#2@22"Copy Resources/bg1.png322023189#322023189#0(0"0(0#0#40"/Users/admin/src/cocoB/Resources/bg1.png8607144288#425"    cd /Users/admin/src/cocoB    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/admin/src/cocoB/Resources/bg1.png /Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app0#
+
+CCpResource build/Debug-iphonesimulator/cocoB.app/bgalla.gif Resources/bgalla.gif
+s322031061.478884
+e322031061.489664
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/cocoB.app/bgalla.gif
+xResources/bgalla.gif
+lSLF07#2@25"Copy Resources/bgalla.gif322031061#322031061#0(0"0(0#0#43"/Users/admin/src/cocoB/Resources/bgalla.gif8627905984#428"    cd /Users/admin/src/cocoB    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/admin/src/cocoB/Resources/bgalla.gif /Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app0#
 
 CCpResource build/Debug-iphonesimulator/cocoB.app/cloud1.png Resources/cloud1.png
 s322029520.224449
@@ -1364,6 +1443,15 @@ xCpResource
 xbuild/Debug-iphonesimulator/cocoB.app/cloud2.png
 xResources/cloud2.png
 lSLF07#2@25"Copy Resources/cloud2.png322029520#322029520#0(0"0(0#0#43"/Users/admin/src/cocoB/Resources/cloud2.png8627829472#428"    cd /Users/admin/src/cocoB    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/admin/src/cocoB/Resources/cloud2.png /Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app0#
+
+CCpResource build/Debug-iphonesimulator/cocoB.app/eket.gif Resources/eket.gif
+s322031061.479467
+e322031061.491850
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/cocoB.app/eket.gif
+xResources/eket.gif
+lSLF07#2@23"Copy Resources/eket.gif322031061#322031061#0(0"0(0#0#41"/Users/admin/src/cocoB/Resources/eket.gif8627764704#426"    cd /Users/admin/src/cocoB    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/admin/src/cocoB/Resources/eket.gif /Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app0#
 
 CCpResource build/Debug-iphonesimulator/cocoB.app/fps_images.png Resources/fps_images.png
 s322022816.216379
@@ -1411,23 +1499,23 @@ xResources/mountain3.png
 lSLF07#2@28"Copy Resources/mountain3.png322029520#322029520#0(0"0(0#0#46"/Users/admin/src/cocoB/Resources/mountain3.png8627066432#431"    cd /Users/admin/src/cocoB    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/admin/src/cocoB/Resources/mountain3.png /Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app0#
 
 CGenerateDSYMFile /Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app.dSYM /Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app/cocoB
-s322029558.169919
-e322029558.376981
+s322031699.415284
+e322031699.759797
 r1
 xGenerateDSYMFile
 x/Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app.dSYM
 x/Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app/cocoB
-lSLF07#2@103"GenerateDSYMFile build/Debug-iphonesimulator/cocoB.app.dSYM build/Debug-iphonesimulator/cocoB.app/cocoB322029558#322029558#0(0"0(0#0#66"/Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app/cocoB8624431200#329"    cd /Users/admin/src/cocoB    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app/cocoB -o /Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app.dSYM0#
+lSLF07#2@103"GenerateDSYMFile build/Debug-iphonesimulator/cocoB.app.dSYM build/Debug-iphonesimulator/cocoB.app/cocoB322031699#322031699#0(0"0(0#0#66"/Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app/cocoB8628632864#329"    cd /Users/admin/src/cocoB    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app/cocoB -o /Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app.dSYM0#
 
 CLd /Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app/cocoB normal i386
-s322029557.901233
-e322029558.169671
+s322031698.992460
+e322031699.415187
 r1
 xLd
 x/Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app/cocoB
 xnormal
 xi386
-lSLF07#2@71"Link /Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app/cocoB322029557#322029558#0(0"0(0#0#0"8624685888#965"    cd /Users/admin/src/cocoB    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/admin/src/cocoB/build/Debug-iphonesimulator -F/Users/admin/src/cocoB/build/Debug-iphonesimulator -filelist /Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/Objects-normal/i386/cocoB.LinkFileList -mmacosx-version-min=10.6 -all_load -ObjC -Xlinker -objc_abi_version -Xlinker 2 -framework CoreGraphics -framework Foundation -framework OpenGLES -framework QuartzCore -framework UIKit -framework AudioToolbox -framework OpenAL -lz -framework AVFoundation "-lcocos2d libraries" -o /Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app/cocoB0#
+lSLF07#2@71"Link /Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app/cocoB322031698#322031699#0(0"0(0#0#0"8612578208#965"    cd /Users/admin/src/cocoB    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/admin/src/cocoB/build/Debug-iphonesimulator -F/Users/admin/src/cocoB/build/Debug-iphonesimulator -filelist /Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/Objects-normal/i386/cocoB.LinkFileList -mmacosx-version-min=10.6 -all_load -ObjC -Xlinker -objc_abi_version -Xlinker 2 -framework CoreGraphics -framework Foundation -framework OpenGLES -framework QuartzCore -framework UIKit -framework AudioToolbox -framework OpenAL -lz -framework AVFoundation "-lcocos2d libraries" -o /Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app/cocoB0#
 
 CProcessInfoPlistFile /Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app/Info.plist Resources/Info.plist
 s322022816.211685
@@ -1452,10 +1540,10 @@ xcom.apple.compilers.llvmgcc42
 lSLF07#2@27"Precompile cocoB_Prefix.pch322022816#322022816#0(0"0(0#0#39"/Users/admin/src/cocoB/cocoB_Prefix.pch8612970752#1658"    cd /Users/admin/src/cocoB    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/cocoB-generated-files.hmap -I/Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/cocoB-own-target-headers.hmap -I/Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/cocoB-all-target-headers.hmap -iquote /Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/cocoB-project-headers.hmap -Wall -F/Users/admin/src/cocoB/build/Debug-iphonesimulator -I/Users/admin/src/cocoB/build/Debug-iphonesimulator/include -I/Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/DerivedSources/i386 -I/Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/DerivedSources -c /Users/admin/src/cocoB/cocoB_Prefix.pch -o /var/folders/9S/9S34CK-cHbS1kAu6+wRgTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocoB_Prefix-cmmeomgatsgtgtbgopmwyxygpizn/cocoB_Prefix.pch.gch0#
 
 CTouch /Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app
-s322029558.377082
-e322029558.379700
+s322031699.759893
+e322031699.763212
 r1
 xTouch
 x/Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app
-lSLF07#2@66"Touch /Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app322029558#322029558#0(0"0(0#0#0"8628140320#244"    cd /Users/admin/src/cocoB    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app0#
+lSLF07#2@66"Touch /Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app322031699#322031699#0(0"0(0#0#0"8628675840#244"    cd /Users/admin/src/cocoB    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app0#
 

@@ -31,6 +31,23 @@
 {
 	if( (self=[super init] )) {
 		[self addChild: [BgLayer node]];
+		
+		CGSize winSize = [[CCDirector sharedDirector] winSize];
+		CCSprite *up = [CCSprite spriteWithFile:@"bauchi.gif" rect:CGRectMake(0, 0, 48, 48)];
+		up.position = ccp(winSize.width/2, 100);
+		[self addChild:up];
+		
+		CCSprite *down = [CCSprite spriteWithFile:@"baule.gif" rect:CGRectMake(0, 0, 48, 48)];
+		down.position = ccp(winSize.width/2, 200);
+		[self addChild:down];
+		
+		CCSprite *left = [CCSprite spriteWithFile:@"bgalla.gif" rect:CGRectMake(0, 0, 48, 48)];
+		left.position = ccp(winSize.width/2 - 50, 150);
+		[self addChild:left];
+		
+		CCSprite *right = [CCSprite spriteWithFile:@"eket.gif" rect:CGRectMake(0, 0, 48, 48)];
+		right.position = ccp(winSize.width/2 + 50, 150);
+		[self addChild:right];
 	}
 	return self;
 }

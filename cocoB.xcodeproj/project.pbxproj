@@ -73,6 +73,10 @@
 		8493EAF81331C75000B468AC /* mountain1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8493EAF21331C75000B468AC /* mountain1.png */; };
 		8493EAF91331C75000B468AC /* mountain2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8493EAF31331C75000B468AC /* mountain2.png */; };
 		8493EAFA1331C75000B468AC /* mountain3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8493EAF41331C75000B468AC /* mountain3.png */; };
+		8493EB1F1331CCD500B468AC /* bauchi.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8493EB1B1331CCD500B468AC /* bauchi.gif */; };
+		8493EB201331CCD500B468AC /* baule.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8493EB1C1331CCD500B468AC /* baule.gif */; };
+		8493EB211331CCD500B468AC /* bgalla.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8493EB1D1331CCD500B468AC /* bgalla.gif */; };
+		8493EB221331CCD500B468AC /* eket.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8493EB1E1331CCD500B468AC /* eket.gif */; };
 		DC6640030F83B3EA000B3E49 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6640020F83B3EA000B3E49 /* AudioToolbox.framework */; };
 		DC6640050F83B3EA000B3E49 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6640040F83B3EA000B3E49 /* OpenAL.framework */; };
 		DCCBF1B70F6022AE0040855A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCBF1B60F6022AE0040855A /* CoreGraphics.framework */; };
@@ -333,6 +337,10 @@
 		8493EAF21331C75000B468AC /* mountain1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mountain1.png; sourceTree = "<group>"; };
 		8493EAF31331C75000B468AC /* mountain2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mountain2.png; sourceTree = "<group>"; };
 		8493EAF41331C75000B468AC /* mountain3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mountain3.png; sourceTree = "<group>"; };
+		8493EB1B1331CCD500B468AC /* bauchi.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bauchi.gif; sourceTree = "<group>"; };
+		8493EB1C1331CCD500B468AC /* baule.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = baule.gif; sourceTree = "<group>"; };
+		8493EB1D1331CCD500B468AC /* bgalla.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bgalla.gif; sourceTree = "<group>"; };
+		8493EB1E1331CCD500B468AC /* eket.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = eket.gif; sourceTree = "<group>"; };
 		DC6640020F83B3EA000B3E49 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		DC6640040F83B3EA000B3E49 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 		DCCBF1B60F6022AE0040855A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -722,6 +730,10 @@
 		50F414EB1069373D002A0D5E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8493EB1B1331CCD500B468AC /* bauchi.gif */,
+				8493EB1C1331CCD500B468AC /* baule.gif */,
+				8493EB1D1331CCD500B468AC /* bgalla.gif */,
+				8493EB1E1331CCD500B468AC /* eket.gif */,
 				8493EAEF1331C75000B468AC /* actor1.png */,
 				8493EAF01331C75000B468AC /* cloud1.png */,
 				8493EAF11331C75000B468AC /* cloud2.png */,
@@ -1154,6 +1166,10 @@
 				8493EAF81331C75000B468AC /* mountain1.png in Resources */,
 				8493EAF91331C75000B468AC /* mountain2.png in Resources */,
 				8493EAFA1331C75000B468AC /* mountain3.png in Resources */,
+				8493EB1F1331CCD500B468AC /* bauchi.gif in Resources */,
+				8493EB201331CCD500B468AC /* baule.gif in Resources */,
+				8493EB211331CCD500B468AC /* bgalla.gif in Resources */,
+				8493EB221331CCD500B468AC /* eket.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,33 +15,33 @@
 {
 	if( (self=[super init] )) {
 		CGSize winSize = [[CCDirector sharedDirector] winSize];
-		CCSprite *bg = [CCSprite spriteWithFile:@"bg1.png" rect:CGRectMake(0, 0, 680, 720)];
-		bg.position = ccp(winSize.width/2, winSize.height/2);
+		CCSprite *bg = [CCSprite spriteWithFile:@"bg1.png" rect:CGRectMake(0, 0, 720, 680)];
+		bg.position = ccp(winSize.width/2, 600);
 		[self addChild:bg];
 		
-		CCSprite *actor = [CCSprite spriteWithFile:@"actor1.png" rect:CGRectMake(0, 0, 680, 720)];
-		actor.position = ccp(winSize.width/2, winSize.height/2);
-		[self addChild:actor];	
-		
-		CCSprite *cloud1 = [CCSprite spriteWithFile:@"cloud1.png" rect:CGRectMake(0, 0, 680, 720)];
-		cloud1.position = ccp(winSize.width/2, winSize.height/2);
+		CCSprite *cloud1 = [CCSprite spriteWithFile:@"cloud1.png" rect:CGRectMake(0, 0, 720, 680)];
+		cloud1.position = ccp(winSize.width/2, 600);
 		[self addChild:cloud1];	
 		
-		CCSprite *cloud2 = [CCSprite spriteWithFile:@"cloud2.png" rect:CGRectMake(0, 0, 680, 720)];
-		cloud2.position = ccp(winSize.width/2, winSize.height/2);
-		[self addChild:cloud2];	
+		CCSprite *mtn3 = [CCSprite spriteWithFile:@"mountain3.png" rect:CGRectMake(0, 0, 720, 680)];
+		mtn3.position = ccp(winSize.width/2, 600);
+		[self addChild:mtn3];
 		
-		CCSprite *mtn1 = [CCSprite spriteWithFile:@"mountain1.png" rect:CGRectMake(0, 0, 680, 720)];
-		mtn1.position = ccp(winSize.width/2, winSize.height/2);
-		[self addChild:mtn1];	
-		
-		CCSprite *mtn2 = [CCSprite spriteWithFile:@"mountain2.png" rect:CGRectMake(0, 0, 680, 720)];
-		mtn2.position = ccp(winSize.width/2, winSize.height/2);
+		CCSprite *mtn2 = [CCSprite spriteWithFile:@"mountain2.png" rect:CGRectMake(0, 0, 720, 680)];
+		mtn2.position = ccp(winSize.width/2, 600);
 		[self addChild:mtn2];	
 		
-		CCSprite *mtn3 = [CCSprite spriteWithFile:@"mountain3.png" rect:CGRectMake(0, 0, 680, 720)];
-		mtn3.position = ccp(winSize.width/2, winSize.height/2);
-		[self addChild:mtn3];	
+		CCSprite *mtn1 = [CCSprite spriteWithFile:@"mountain1.png" rect:CGRectMake(0, 0, 720, 680)];
+		mtn1.position = ccp(winSize.width/2, 600);
+		[self addChild:mtn1];	
+		
+		CCSprite *actor = [CCSprite spriteWithFile:@"actor1.png" rect:CGRectMake(0, 0, 720, 680)];
+		actor.position = ccp(winSize.width/2, 600);
+		[self addChild:actor];	
+		
+		CCSprite *cloud2 = [CCSprite spriteWithFile:@"cloud2.png" rect:CGRectMake(0, 0, 720, 680)];
+		cloud2.position = ccp(winSize.width/2, 600);
+		[self addChild:cloud2];		
 	}
 	
 	return self;
