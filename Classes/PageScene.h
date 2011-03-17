@@ -11,11 +11,11 @@
 #import "cocos2d.h"
 
 // HelloWorld Layer
-@interface HelloWorld : CCLayer
+@interface PageScene : CCLayer
 {
 }
 
-// returns a Scene that contains the HelloWorld as the only child
+// returns a Scene that contains the PageScene as the only child
 +(id) scene;
 
 @end

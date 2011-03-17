@@ -10,7 +10,7 @@
 
 #import "cocoBAppDelegate.h"
 #import "GameConfig.h"
-#import "HelloWorldScene.h"
+#import "PageScene.h"
 #import "RootViewController.h"
 
 @implementation cocoBAppDelegate
@@ -110,7 +110,7 @@
 	[self removeStartupFlicker];
 	
 	// Run the intro Scene
-	[[CCDirector sharedDirector] runWithScene: [HelloWorld scene]];		
+	[[CCDirector sharedDirector] runWithScene: [PageScene scene]];		
 }
 
 

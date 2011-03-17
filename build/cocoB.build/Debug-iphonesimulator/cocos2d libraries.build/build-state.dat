@@ -1,7 +1,7 @@
 Tcocos2d libraries
 v7
 r0
-t322024005.145945
+t322029557.666296
 cCheck dependencies
 cCompileC "build/cocoB.build/Debug-iphonesimulator/cocos2d libraries.build/Objects-normal/i386/FontLabel.o" /Users/admin/src/cocoB/libs/FontLabel/FontLabel.m normal i386 objective-c com.apple.compilers.llvmgcc42
 cCompileC "build/cocoB.build/Debug-iphonesimulator/cocos2d libraries.build/Objects-normal/i386/FontLabelStringDrawing.o" /Users/admin/src/cocoB/libs/FontLabel/FontLabelStringDrawing.m normal i386 objective-c com.apple.compilers.llvmgcc42
@@ -2547,7 +2547,7 @@ i<UIKit/UIKit.h>
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies322024005#322024005#0(0"0(0#1#0"8623106304#0"0#
+lSLF07#2@18"Check dependencies322029557#322029557#0(0"0(0#1#0"8623004480#0"0#
 
 CCompileC "build/cocoB.build/Debug-iphonesimulator/cocos2d libraries.build/Objects-normal/i386/CCAction.o" /Users/admin/src/cocoB/libs/cocos2d/CCAction.m normal i386 objective-c com.apple.compilers.llvmgcc42
 s322022804.546691

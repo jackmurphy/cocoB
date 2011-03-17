@@ -7,10 +7,11 @@
 //
 
 // Import the interfaces
-#import "HelloWorldScene.h"
+#import "PageScene.h"
+#import "BgLayer.h"
 
-// HelloWorld implementation
-@implementation HelloWorld
+// PageScene implementation
+@implementation PageScene
 
 +(id) scene
 {
@@ -18,9 +19,8 @@
 	CCScene *scene = [CCScene node];
 	
 	// 'layer' is an autorelease object.
-	HelloWorld *layer = [HelloWorld node];
+	PageScene *layer = [PageScene node];
 	
-	// add layer as a child to scene
 	[scene addChild: layer];
 	
 	// return the scene
@@ -30,10 +30,7 @@
 -(id) init
 {
 	if( (self=[super init] )) {
-		CGSize winSize = [[CCDirector sharedDirector] winSize];
-		CCSprite *bg = [CCSprite spriteWithFile:@"bg1.png" rect:CGRectMake(0, 0, 680, 720)];
-		bg.position = ccp(winSize.width/2, winSize.height/2);
-		[self addChild:bg];		
+		[self addChild: [BgLayer node]];
 	}
 	return self;
 }

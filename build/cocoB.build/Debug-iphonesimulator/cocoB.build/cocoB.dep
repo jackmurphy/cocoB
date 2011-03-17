@@ -1,11 +1,18 @@
-b3dd4da277687d9f01e43836b03f0c33 c556e5dc71d854a7b6dee674a7338cbd ffffffffffffffffffffffffffffffff 510 /Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app
+98b7973af7086abb8679233ae3277947 c556e5dc71d854a7b6dee674a7338cbd ffffffffffffffffffffffffffffffff 714 /Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app
 00000000000000000000000000000000 8cd932a3aebb930b337abdd7e891df82 ffffffffffffffffffffffffffffffff 102 /Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app.dSYM
-d65329b945bbd391ed047a0ae830495f 2edee3893aba7aaa0a554e94a7a9cd98 ffffffffffffffffffffffffffffffff 1649272 /Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app/cocoB
-dc27bde273dce7e0ee83801c442007e0 186dba5c1fe153c7a401b32bcced0d4c ffffffffffffffffffffffffffffffff 59500 /Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/Objects-normal/i386/cocoBAppDelegate.o
+45ca77e33d08a19fb54fa56883490750 2edee3893aba7aaa0a554e94a7a9cd98 ffffffffffffffffffffffffffffffff 1654376 /Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app/cocoB
+dc27bde23e93872eee83801c44206a68 8c5922192c818989635b0b8b4d994a07 ffffffffffffffffffffffffffffffff 16484 /Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/Objects-normal/i386/BgLayer.o
 dc27bde23e44ff29ee83801c44207414 6d3952accfcc15659810558991221f53 ffffffffffffffffffffffffffffffff 36252 /Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/Objects-normal/i386/RootViewController.o
-dc27bde23e9392c8ee83801c44206872 83db7e74e55cba6a69879cea01159064 ffffffffffffffffffffffffffffffff 13348 /Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/Objects-normal/i386/HelloWorldScene.o
+dc27bde273dc1db3ee83801c44201674 403cbfd5c2b24dd8bc14c81f63d5800f ffffffffffffffffffffffffffffffff 9396 /Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/Objects-normal/i386/PageScene.o
+dc27bde273dce380ee83801c442007ed 186dba5c1fe153c7a401b32bcced0d4c ffffffffffffffffffffffffffffffff 59500 /Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/Objects-normal/i386/cocoBAppDelegate.o
 dc27bde23e8af282ee83801c44201f98 20dcbf3d70cadf7fb8920042b480b7ca ffffffffffffffffffffffffffffffff 3172 /Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/Objects-normal/i386/main.o
 000000004d83afff0000000000001e6a dc27bde273de3d3aee83801c44200a0e ffffffffffffffffffffffffffffffff 12262832 /var/folders/9S/9S34CK-cHbS1kAu6+wRgTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocoB_Prefix-cmmeomgatsgtgtbgopmwyxygpizn/cocoB_Prefix.pch.gch
+00000000000000000000000000000000 57300eaeafe5ed328e6778427fe2129f ffffffffffffffffffffffffffffffff 91497 /Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app/mountain3.png
+00000000000000000000000000000000 026cfeb00f03c09158e07433315ab1a7 ffffffffffffffffffffffffffffffff 120699 /Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app/mountain2.png
+00000000000000000000000000000000 9e6d9c9a61a9a182116dd82a6ee9d51a ffffffffffffffffffffffffffffffff 185048 /Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app/mountain1.png
+00000000000000000000000000000000 826087260cfc8387eedaab18576e707c ffffffffffffffffffffffffffffffff 68873 /Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app/cloud2.png
+00000000000000000000000000000000 067bb6079bb7b1803da5ba742c2d8eec ffffffffffffffffffffffffffffffff 101062 /Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app/cloud1.png
+00000000000000000000000000000000 f7d9d967aed7db0ccb4301596373b3c9 ffffffffffffffffffffffffffffffff 170152 /Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app/actor1.png
 00000000000000000000000000000000 59fed3ef862e1cc220ee72a588804a8e ffffffffffffffffffffffffffffffff 792414 /Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app/bg1.png
 00000000000000000000000000000000 e927132802fcb006a1a0c2ceb9ded988 ffffffffffffffffffffffffffffffff 61982 /Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app/iTunesArtwork
 00000000000000000000000000000000 3f3eb6ade44ce73d48b8ceace8955530 ffffffffffffffffffffffffffffffff 11414 /Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app/Icon-72.png
@@ -18,3 +25,4 @@ dc27bde23e8af282ee83801c44201f98 20dcbf3d70cadf7fb8920042b480b7ca ffffffffffffff
 00000000000000000000000000000000 36aa606bcaaaeb528cc7cda41b1bd8ef ffffffffffffffffffffffffffffffff 30635 /Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app/Default.png
 00000000000000000000000000000000 e35b0a7f624556c58dc0c1d030e056b5 ffffffffffffffffffffffffffffffff 8 /Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app/PkgInfo
 00000000000000000000000000000000 e35b0a7f624556c58dc0c1d030e056b5 ffffffffffffffffffffffffffffffff 812 /Users/admin/src/cocoB/build/Debug-iphonesimulator/cocoB.app/Info.plist
+dc27bde23e9392c8ee83801c44206872 83db7e74e55cba6a69879cea01159064 ffffffffffffffffffffffffffffffff 13348 /Users/admin/src/cocoB/build/cocoB.build/Debug-iphonesimulator/cocoB.build/Objects-normal/i386/HelloWorldScene.o
